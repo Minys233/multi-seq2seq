@@ -127,3 +127,4 @@ dmypy.json
 .DS_Store
 .idea/
 QSAR/
+multiseq2seq/baseline/cddd/
