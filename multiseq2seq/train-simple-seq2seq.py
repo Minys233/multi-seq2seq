@@ -71,6 +71,7 @@ REGEX_SML = r'Cl|Br|[#%\)\(\+\-1032547698:=@CBFIHONPS\[\]cionps]'
 if args.FIELDS is not None and Path(args.FIELDS).is_file():
     print(f"Loading Fields from {args.FIELDS}")
     SRC, TRG = cloudpickle.load(open(args.FIELDS, 'rb'))
+    ### Modifiy SRC.tokenize and TRG.tokenize to change input SMILES sequence
 else:
     SRC = Field(tokenize=lambda smi: re.findall(REGEX_SML, smi),
                 init_token='<sos>',
