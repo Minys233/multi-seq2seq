@@ -1,0 +1,13 @@
+Method	Dataset	Metrics	Mean(CV)	Std(CV)
+Class.	bace	AUC-ROC	0.896	0.017
+Class.	bace	accu.	0.836	0.020
+Class.	bbbp	AUC-ROC	0.913	0.011
+Class.	bbbp	accu.	0.901	0.008
+Class.	ames	AUC-ROC	0.888	0.006
+Class.	ames	accu.	0.819	0.008
+Regres.	ESOL	MSE	0.136	0.036
+Regres.	ESOL	R^2	0.943	0.015
+Regres.	lipo	MSE	0.400	0.022
+Regres.	lipo	R^2	0.724	0.010
+Regres.	FreeSolv	MSE	4.053	1.420
+Regres.	FreeSolv	R^2	0.741	0.058

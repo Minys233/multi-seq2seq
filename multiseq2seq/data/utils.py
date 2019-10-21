@@ -131,7 +131,7 @@ def preprocess_smiles(sml):
     Function that preprocesses a SMILES string such that it is in the same format as
     the translation model was trained on. It removes salts and stereochemistry from the
     SMILES sequnce. If the sequnce correspond to an inorganic molecule or cannot be
-    interpreted by RDKit nan is returned.
+    interpreted by RDKit, None is returned.
     :param str sml: A SMILES sequence.
     :return: A canonical SMILES sequence or None.
     :rtype: Union[str, NoneType]

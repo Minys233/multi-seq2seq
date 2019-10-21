@@ -128,3 +128,7 @@ dmypy.json
 .idea/
 QSAR/
 multiseq2seq/baseline/cddd/
+multiseq2seq/baseline/chainer
+archive/
+sample.smi
+

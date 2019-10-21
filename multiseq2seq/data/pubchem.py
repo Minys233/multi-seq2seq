@@ -5,7 +5,7 @@ from pathlib import Path
 import tqdm
 from joblib import Parallel, delayed
 
-from data.utils import preprocess_smiles, uniq
+from multiseq2seq.data.utils import preprocess_smiles, uniq
 
 
 """

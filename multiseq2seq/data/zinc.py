@@ -1,4 +1,4 @@
-from data.utils import preprocess_smiles, uniq
+from multiseq2seq.data.utils import preprocess_smiles, uniq
 from joblib import Parallel, delayed
 import argparse
 from typing import TextIO
